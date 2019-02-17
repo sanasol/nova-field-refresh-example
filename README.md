@@ -4,6 +4,8 @@
 
 This field adds magic refresh button field.
 
+![preview](http://g.recordit.co/1VVFOA91TR.gif)
+
 ## Requrements
 
 * Laravel 5.6+ with Nova.
