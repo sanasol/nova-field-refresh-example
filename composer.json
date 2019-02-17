@@ -1,0 +1,30 @@
+{
+    "name": "s-anasol/nova-field-refresh-example",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "*",
+    },
+    "autoload": {
+        "psr-4": {
+            "Sanasol\\NovaFieldRefreshExample\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sanasol\\NovaFieldRefreshExample\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
